@@ -19,7 +19,39 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    // adasd asdasd
+    [self buttonsProgramatically];
+}
+
+
+#pragma mark Buttons Programatically
+
+-(void)buttonsProgramatically
+{
+    // Kare seklinde duz , uzerinde Round Rect.. yazan button
+    UIButton *roundRectButton = [UIButton buttonWithType:
+                                 UIButtonTypeRoundedRect];
+    [roundRectButton setFrame:CGRectMake(60, 80, 200, 40)];
+    [roundRectButton setTitle:@"Round Rect.." forState:
+     UIControlStateNormal];
+    [self.view addSubview:roundRectButton];
+    
+    // yuvarlak icinde i harfi olan button
+    UIButton *detailDisclosureButton = [UIButton buttonWithType:
+                                        UIButtonTypeDetailDisclosure];
+    [detailDisclosureButton setFrame:CGRectMake(60, 150, 200, 40)];
+    [detailDisclosureButton setTitle:@"Detail disclosure" forState:
+     UIControlStateNormal];
+    [self.view addSubview:detailDisclosureButton];
+    
+    // + buttonu 
+    UIButton *contactButton = [UIButton buttonWithType:
+                               UIButtonTypeContactAdd];
+    [contactButton setFrame:CGRectMake(60, 200, 200, 40)];
+    [self.view addSubview:contactButton];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
