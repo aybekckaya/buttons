@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3A957B01849384400152471 /* tree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A957AF1849384400152471 /* tree@2x.png */; };
+		A3A957B21849385500152471 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A957B11849385500152471 /* tree.png */; };
 		A3B9C614184809360035459E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B9C613184809360035459E /* Foundation.framework */; };
 		A3B9C616184809360035459E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B9C615184809360035459E /* CoreGraphics.framework */; };
 		A3B9C618184809360035459E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B9C617184809360035459E /* UIKit.framework */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3A957AF1849384400152471 /* tree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tree@2x.png"; sourceTree = "<group>"; };
+		A3A957B11849385500152471 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
 		A3B9C610184809360035459E /* UIButtonsTut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtonsTut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B9C613184809360035459E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3B9C615184809360035459E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +118,8 @@
 		A3B9C619184809360035459E /* UIButtonsTut */ = {
 			isa = PBXGroup;
 			children = (
+				A3A957B11849385500152471 /* tree.png */,
+				A3A957AF1849384400152471 /* tree@2x.png */,
 				A3B9C622184809360035459E /* AppDelegate.h */,
 				A3B9C623184809360035459E /* AppDelegate.m */,
 				A3B9C625184809360035459E /* Main_iPhone.storyboard */,
@@ -234,7 +240,9 @@
 				A3B9C62A184809360035459E /* Main_iPad.storyboard in Resources */,
 				A3B9C62F184809360035459E /* Images.xcassets in Resources */,
 				A3B9C627184809360035459E /* Main_iPhone.storyboard in Resources */,
+				A3A957B01849384400152471 /* tree@2x.png in Resources */,
 				A3B9C61E184809360035459E /* InfoPlist.strings in Resources */,
+				A3A957B21849385500152471 /* tree.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +482,7 @@
 				A3B9C647184809360035459E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3B9C648184809360035459E /* Build configuration list for PBXNativeTarget "UIButtonsTutTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +491,7 @@
 				A3B9C64A184809360035459E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

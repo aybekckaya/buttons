@@ -13,6 +13,7 @@
     
 }
 
+-(IBAction)btnOnTap:(id)sender;
 
 
 @end
